@@ -28,7 +28,6 @@ It features smooth animations, dark mode toggle, and a working contact form usin
 
 ## 📬 Live Demo
 
-🔗 [View Portfolio](https://your-live-site-link.com)  
-_(Update this link after deployment)_
+🔗 [View Portfolio](https://takshilpandya.vercel.app/)  
 
 ---
