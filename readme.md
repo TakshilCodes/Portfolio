@@ -22,7 +22,6 @@ It features smooth animations, dark mode toggle, and a working contact form usin
 - **Tailwind CSS**
 - **Framer Motion & GSAP** (animations)
 - **EmailJS** (form submissions)
-- **Responsive Design** + **Dark Mode**
 
 ---
 

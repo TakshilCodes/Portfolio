@@ -6,8 +6,8 @@ const About: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(sectionRef, { once: false, amount: 0.2 });
 
-  const skills = ['React', 'TypeScript', 'Next.js', 'TailwindCSS'];
-  const services = ['Full Stack Development', 'Specialized in AI', 'Web Design & Development', 'Automation & Scripting'];
+  const skills = ['React', 'TypeScript', 'Next.js','Node.js','Express.js','PostgreSQL','Prisma','Firebase', 'TailwindCSS'];
+  const services = ['Web Application Development', 'Frontend & Backend Integration', 'API & Database Work', 'Internal Tools & Automation'];
 
   const statCards = [
     { label: 'Professional Level', value: 'Junior' },
@@ -46,13 +46,13 @@ const About: React.FC = () => {
           >
             <ul className="space-y-3 text-sm text-gray-700 dark:text-gray-300 mb-6">
               <li className="flex items-center gap-3"><MapPin size={16} /> Based in India</li>
-              <li className="flex items-center gap-3"><User size={16} /> 17 Years Old</li>
-              <li className="flex items-center gap-3"><Code2 size={16} /> MERN Stack Developer</li>
-              <li className="flex items-center gap-3"><CalendarDays size={16} /> 1+ Years of Experience</li>
+              <li className="flex items-center gap-3"><User size={16} /> Web Developer</li>
+              <li className="flex items-center gap-3"><Code2 size={16} /> Frontend & Backend Development</li>
+              <li className="flex items-center gap-3"><CalendarDays size={16} /> Learning & building consistently</li>
             </ul>
             <p className="text-sm text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-              As a dedicated developer, I focus on building modern, performant, and visually impressive web apps using the latest tech stacks.
-              My goal is to deliver impactful products through clean code and polished design.
+              I work on web applications, handling frontend, backend, and data.
+              I focus on writing clear code and building things that actually work in real use.
             </p>
 
             <div className="flex gap-4 flex-wrap">

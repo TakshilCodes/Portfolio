@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            FullStack Developer in Progress
+            Building full-stack web applications
           </motion.p>
 
           <motion.h1
@@ -38,12 +38,13 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            I build web experiences that perform and impress.
+            I build clean, scalable web applications end-to-end.
           </motion.h1>
 
           <div ref={paragraphBlock}>
             <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 max-w-xl mx-auto mb-10">
-              I'm Takshil Pandya, a 17-year-old frontend developer learning full stack. I enjoy building clean, responsive interfaces and bringing ideas to life on the web.
+              I’m Takshil Pandya, a web developer currently working on full-stack projects.
+              I build user interfaces, write backend APIs, design databases, and connect third-party services to real products.
             </p>
 
             <div className="flex justify-center gap-4 flex-wrap">
@@ -53,7 +54,7 @@ const Hero: React.FC = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                View Work
+                View Projects
               </motion.a>
               <motion.a
                 href="#contact"
