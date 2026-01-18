@@ -1,6 +1,7 @@
 import React from 'react';
 import project1 from '../assets/projects/airbnbclone.png';
 import project2 from '../assets/projects/zerodhaclone.png';
+import rightArrow from '../assets/icon/right-arrow.png';
 
 const projectData = [
   {
@@ -33,9 +34,8 @@ const Projects: React.FC = () => {
       {projectData.map((project, index) => (
         <div
           key={index}
-          className={`max-w-7xl mx-auto flex flex-col ${
-            project.reverse ? 'md:flex-row-reverse' : 'md:flex-row'
-          } items-center gap-12`}
+          className={`max-w-7xl mx-auto flex flex-col ${project.reverse ? 'md:flex-row-reverse' : 'md:flex-row'
+            } items-center gap-12`}
         >
           {/* Text Section */}
           <div className="w-full md:w-1/2 space-y-6 relative">
@@ -62,10 +62,12 @@ const Projects: React.FC = () => {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-black text-white dark:bg-white dark:text-black text-sm font-medium px-6 py-3 rounded-md mt-4 hover:opacity-90 transition"
+              className="inline-flex items-center gap-2 bg-black text-white dark:bg-white dark:text-black text-sm font-medium px-5 py-2.5 rounded-md mt-4 transition-opacity hover:opacity-90"
             >
-              View Project →
+              <span>View project</span>
+              <img src={rightArrow} alt="right arrow" className="w-3 h-3" />
             </a>
+
           </div>
 
           {/* Image Section */}
